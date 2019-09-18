@@ -79,8 +79,6 @@ module.exports = {
  i18ntranslate generate ./src/views/i18n-translate
 ```
 
-使用 opencc 进行中文译繁体,puppeteer 调用简易 chrome 进行自动翻译(也可以使用 translate.js 来调用 youdao/google/baidu 翻译来调用 api 翻译,速度能快 10 倍以上,但我的 ip 被封完了,只能找个稳点方法)
-
 现在可以看到生成了一个 translate 文件夹,里面是生成文件的备份,其中./translate/cache/tw/zh_TW.JS 是繁体的翻译,./translate/cache/zh/zh_CN.JS 是中文格式,./translate/cache/en/en.JS 是英文的翻译
 
 ./translate/cache/tw/zh_TW.JS
@@ -114,3 +112,7 @@ default: {
 ![05](https://github.com/easterCat/vue-i18n-test/blob/test/src/assets/05.png?raw=true)
 
 翻译完毕
+
+#### 如何翻译
+
+使用 opencc 进行中文译繁体,puppeteer 调用简易 chrome 进行自动翻译(也可以使用 translate.js 来调用 youdao/google/baidu 翻译来调用 api 翻译,速度能快 10 倍以上,但我的 ip 被封完了,只能找个稳点方法)
