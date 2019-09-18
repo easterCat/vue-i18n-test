@@ -4,10 +4,10 @@
 
 #### 项目依赖库
 
-[vue-i18n](https://github.com/kazupon/vue-i18n)
-[vue-element-admin](https://panjiachen.github.io/vue-element-admin-site/zh/guide/advanced/i18n.html)
-[vue-i18n-generator](https://gitee.com/thesadboy/vue-i18n-generator)
-[vue-i18n-generator-translate](https://www.npmjs.com/package/vue-i18n-generator-translate)
+- [vue-i18n](https://github.com/kazupon/vue-i18n)
+- [vue-element-admin](https://panjiachen.github.io/vue-element-admin-site/zh/guide/advanced/i18n.html)
+- [vue-i18n-generator](https://gitee.com/thesadboy/vue-i18n-generator)
+- [vue-i18n-generator-translate](https://www.npmjs.com/package/vue-i18n-generator-translate)
 
 #### 注意事项
 
@@ -20,10 +20,10 @@
 ### 项目结构
 
 1. 整体结构(vue-element-admin 默认目录)
-   ![vue-element-admin]()
+   ![vue-element-admin](https://github.com/easterCat/vue-i18n-test/blob/test/src/assets/01.png?raw=true)
 
 2. lang 目录结构
-   ![lang]()
+   ![lang](https://github.com/easterCat/vue-i18n-test/blob/test/src/assets/02.png?raw=true)
 
 可以看出当前项目是没有 tw 的相关翻译,需要在./src/utils/lang 下新建 tw.js,并且在./src/utils/lang/index.js 下加入代码
 
@@ -109,8 +109,8 @@ default: {
 
 将对应翻译文件复制粘贴到./src/utils/lang 下对应的语言文件
 
-![]()
-![]()
-![]()
+![03](https://github.com/easterCat/vue-i18n-test/blob/test/src/assets/03.png?raw=true)
+![04](https://github.com/easterCat/vue-i18n-test/blob/test/src/assets/04.png?raw=true)
+![05](https://github.com/easterCat/vue-i18n-test/blob/test/src/assets/05.png?raw=true)
 
 翻译完毕
